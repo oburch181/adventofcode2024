@@ -47,5 +47,5 @@ def safe_reports(filename):
 
 if __name__=="__main__":
     #num_safe = safe_reports("test.txt")
-    num_safe = safe_reports("input_day2.txt")
+    num_safe = safe_reports("./2024/day2/input_day2.txt")
     print(num_safe)

@@ -16,7 +16,7 @@ if __name__=="__main__":
     print(oot)
 
     #process my input HUGE PAIN
-    with open("input_day.txt") as f:
+    with open("./2024/day1/input_day.txt") as f:
         s = f.read()
 
     s_list = s.split()
