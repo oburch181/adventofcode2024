@@ -16,7 +16,6 @@ def part2(input_string):
     match_obj = re.search("""don't()""", cleaned_string)
     if match_obj:
         cleaned_string = cleaned_string[:match_obj.span()[0]]
-        print(cleaned_string)
     return part1(cleaned_string)
 
 
